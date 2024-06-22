@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.fullscreen {
+  height: 100%;
+  background-color: #f0f2f5;
+}
+
+.container {
+  height: 88vh;
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: row;
+}
+
+.leftside {
+  flex: 1;
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 250px;
+  margin-top: -180px;
+}
+
+.rightside {
+  flex: 1;
+  display: flex;
+  background-color: #f0f2f5;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.border {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 390px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.input {
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  color: #979ca2;
+  padding: 16px 14px;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.button {
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  background-color: #0866ff;
+  color: #ffffff;
+  padding: 16px 14px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.line {
+  border: 0.8px solid #dadde1;
+  margin: 20px 0px;
+}
+
+.create {
+  width: 193px;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 2px solid #42b72a;
+  background-color: #42b72a;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.forget {
+  color: #1f7cff;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.end-border {
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer {
+  height: 12vh;
+  background-color: #fff;
+}
+
+.pic {
+  width: 300px;
+}
+
+.text {
+  font-size: large;
+  font-size: 28px;
+  line-height: 32px;
+  margin-top: 20px;
+  margin-right: -10px;
+  width: 500px;
+}
+
+ul {
+  display: inline-block;
+  text-align: center;
+  padding: 8px;
+  margin-left: 200px;
+  color: #8a8d91;
+}
+
+li {
+  list-style: none;
+  float: left;
+  margin: 5px 8px;
+  font-size: 14px;
+}
+
+.order {
+  border: 1px solid #dddfe2;
+  margin: 10px;
+  margin: 0px 100px;
+}
